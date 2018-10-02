@@ -1,0 +1,12 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    static,
+    templates,
+    venv,
+    migrations,
+    manage.py,
+    pyteam/settings.py
+max-complexity = 10
