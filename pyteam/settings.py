@@ -26,7 +26,7 @@ SECRET_KEY = '*m179$++8$ymgbcdz9x=&a-3vs-yv1aj74c#o*hd_i$uqgy&t1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.pyteam.co']
 
 
 # Application definition
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'pyteam.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['pyteam.co/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
